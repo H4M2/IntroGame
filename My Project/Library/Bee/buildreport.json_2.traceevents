@@ -1,0 +1,339 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1665071166062734, "dur": 2368831, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071166064116, "dur": 13198, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071166077450, "dur": 46321, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071166123797, "dur": 1237811, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071167361610, "dur": 1059621, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168421256, "dur": 10309, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168595592, "dur": 12506389, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168595610, "dur": 10868, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168606479, "dur": 35398, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168641880, "dur": 276231, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071168918113, "dur": 12174114, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071181092228, "dur": 9752, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071187541482, "dur": 981995, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071187541758, "dur": 3693, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071187545453, "dur": 32241, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071187577696, "dur": 615272, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071188192971, "dur": 328606, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071188521579, "dur": 1896, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071188523897, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1665071188029958, "dur": 147828, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188030962, "dur": 49339, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188160943, "dur": 4426, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188165372, "dur": 12401, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188166082, "dur": 11027, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188182894, "dur": 1722, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1665071188181987, "dur": 2666, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071188523962, "dur": 146, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1665071188227769, "dur":15935, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188243763, "dur":215, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188244004, "dur":425, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188244431, "dur":249342, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188493774, "dur":191, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188494049, "dur":926, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1665071188244718, "dur":2976, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1665071188248451, "dur":261, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665071188248858, "dur":7398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1665071188256260, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665071188256371, "dur":209330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1665071188465740, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188465739, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188465830, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188466410, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188468080, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188468976, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188469575, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188470367, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188473184, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1665071188474124, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1665071188474859, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1665071188476151, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1665071188477379, "dur":16561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665071188244742, "dur":2957, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1665071188247720, "dur":7614, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188247703, "dur":7632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188255376, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188256909, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665071188257036, "dur":9473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1665071188266556, "dur":40817, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188266554, "dur":40820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188307388, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1665071188308414, "dur":38035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188308413, "dur":38037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188346651, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188347472, "dur":61408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665071188347470, "dur":61412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665071188408891, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1665071188410159, "dur":5387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188410158, "dur":5389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188416132, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188419549, "dur":3260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188419547, "dur":3263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188422835, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188425952, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188425951, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188426166, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188426823, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188426822, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188426935, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188427466, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188427465, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188427675, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188429369, "dur":631, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188429367, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188430021, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188431117, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188431116, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188431261, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188431911, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188431910, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188432058, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188432954, "dur":342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188432952, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188433304, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188434001, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188434000, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188434107, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188434610, "dur":681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188434609, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188435299, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188436376, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188436368, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188436531, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188437110, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188437108, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188437324, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188438956, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188440175, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188440174, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188440290, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441115, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441114, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441238, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441847, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441846, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188441962, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188442636, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188442634, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188442748, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188444233, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188444232, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188444536, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188445600, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188445599, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188445714, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188446903, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188446902, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188447002, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188447565, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188447564, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188447805, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188448728, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188448727, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188448837, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188449501, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188450234, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188451418, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188452809, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188453745, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188455818, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188456637, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188457586, "dur":736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188458397, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188459287, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188460505, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188461486, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188462462, "dur":514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188462461, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188462984, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188463912, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188464699, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188465337, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188465335, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188465442, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188466298, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188466292, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188466369, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188467120, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188467991, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188468684, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188469324, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188470214, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188470212, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188470284, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188471399, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188471398, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188471457, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1665071188473894, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188473893, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188474173, "dur":559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188474742, "dur":980, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188474741, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188475731, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1665071188477103, "dur":16666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665071188244756, "dur":2942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1665071188247703, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665071188249458, "dur":6849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665071188256344, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665071188256688, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1665071188258748, "dur":6104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188258746, "dur":6107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188264863, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188265646, "dur":41738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188265645, "dur":41740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188307392, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1665071188308362, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665071188308436, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1665071188311514, "dur":52296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188311512, "dur":52300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188363844, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188368860, "dur":30416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665071188368859, "dur":30418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665071188399285, "dur":984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project.exe" }}
+,{ "pid":12345, "tid":3, "ts":1665071188400279, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1665071188400558, "dur":21680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1665071188422284, "dur":3104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188422282, "dur":3109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188425402, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188428761, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188428760, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188429070, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188429797, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188429796, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188429946, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188430952, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188430951, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188431103, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188432218, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188432217, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188432328, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188433572, "dur":1243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188433570, "dur":1246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188434826, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188436693, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188436691, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188436934, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188438493, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188438491, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188438670, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188439623, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441110, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441109, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441253, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441870, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441869, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188441964, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188442631, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188442630, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188442750, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188443547, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188443546, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188443704, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444295, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444294, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444398, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444860, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444859, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188444954, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188445428, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188445427, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188445612, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188446837, "dur":288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188446836, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188447132, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188448212, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"S:\\Github\\IntroGame\\My Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188448211, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188448369, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188449110, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188450945, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188452605, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188453212, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188454028, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188454694, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188455575, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188455574, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188455662, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188456523, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188457443, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188458137, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188458890, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188460054, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188460858, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188461663, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188461721, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188463133, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188463907, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188465200, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188466082, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188467062, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188467061, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188467173, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188468334, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188469085, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188469810, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188470922, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188473386, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1665071188474388, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1665071188474387, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1665071188474490, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1665071188476097, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1665071188477732, "dur":16026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665071188244778, "dur":2923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1665071188247726, "dur":7796, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188247704, "dur":7819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188255536, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188256405, "dur":6528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188256404, "dur":6531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188262992, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188263740, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665071188264084, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1665071188266070, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665071188266157, "dur":42046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1665071188308238, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188308325, "dur":5571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1665071188313948, "dur":164310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665071188313947, "dur":164312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1665071188478267, "dur":15439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188244791, "dur":2909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1665071188247710, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1665071188249950, "dur":13176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1665071188263163, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1665071188263261, "dur":193100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1665071188456447, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188458052, "dur":673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188458800, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188460386, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188460980, "dur":618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188462502, "dur":515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188463100, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188464035, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188464679, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188465291, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188467097, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188469103, "dur":779, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188469102, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188469890, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188472911, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1665071188474323, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1665071188476001, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1665071188477279, "dur":16684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665071188244812, "dur":2884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1665071188247720, "dur":27669, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.19f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665071188247704, "dur":27686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665071188275685, "dur":32259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1665071188307981, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665071188308065, "dur":168514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1665071188476619, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1665071188476618, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles S:/Github/IntroGame/Build/My Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1665071188476719, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"S:/Github/IntroGame/Build/My Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1665071188477398, "dur":16513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1665071188495943, "dur":1960, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1665071188524142, "dur": 360, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1665071188523885, "dur": 632, "ph": "X", "name": "Write chrome-trace events", "args": {} },
